@@ -20,6 +20,6 @@ app.get("/", (req, res) => {
 app.use('/user',require('./ModelsAndControllers/userController'));
 app.use('/post',require('./ModelsAndControllers/postController'));
 
-app.listen(PORT, HOSTNAME, () => {
+app.listen(PORT, () => {
   console.log(`Server Running Successfully at ${PORT}`);
 });
