@@ -9,7 +9,7 @@ const app = express();
 connectMongoDB();
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'https://subafrontmedia.netlify.app/', 
+    origin: 'https://gitfrontend.netlify.app/', 
     credentials: true
 }))
 app.get("/", (req, res) => {
